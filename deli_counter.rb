@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 require "pry"
 
+=======
+>>>>>>> 3de6561910a6b9b36928ee683d6a7558d892f23e
 def line(deli)
   if deli.length == 0
     puts "The line is currently empty."
@@ -14,6 +17,7 @@ end
 
 def take_a_number(deli, name)
     deli << name
+<<<<<<< HEAD
     puts "Welcome, #{name}. You are number #{deli.length} in line."
 end
 
@@ -24,4 +28,12 @@ def now_serving(deli)
     puts "Currently serving #{deli[0]}."
     deli.shift
   end
+=======
+    puts ""
+  end
+end
+
+def now_serving()
+  
+>>>>>>> 3de6561910a6b9b36928ee683d6a7558d892f23e
 end
